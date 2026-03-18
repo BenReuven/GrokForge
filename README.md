@@ -25,11 +25,13 @@ This is a tiny, beginner-made demo of a self-improving coding loop using Grok it
 ## How to run locally
 1. Get your xAI API key: https://console.x.ai/team/default/api-keys
 2. Create `.env` file:
+   XAI_API_KEY=xai-your-key-here
 
 3. Install the dependencies:
-
+pip install -r requirements.txt
 (or manually: `pip install python-dotenv openai`)
 4. Run the script:
+python grokforge.py
 
 ## Cost
 About 0.01–0.05 cents per run (very cheap)
