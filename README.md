@@ -35,6 +35,17 @@ python grokforge.py
 
 ## Cost
 About 0.01–0.05 cents per run (very cheap)
+## Auto-fix feature example
+
+Here is a real case where the first code generation missed `import threading` → error → Grok automatically fixed it:
+
+**Before fix (failed):**
+
+![Before fix](auto-fix-example.png)
+
+**After auto-fix:**
+
+![After fix](auto-fix-example1.png)
 
 Built by @BenReuven3 with help from Grok — meta! 🚀  
 #xAI #GrokForge
