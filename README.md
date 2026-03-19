@@ -50,6 +50,8 @@ Here is a real case where the first code generation missed `import threading` â†
 
 ## Successful run example
 
+![successful run](grokforge-successful-run-example.png)
+
 Here's what a normal successful run looks like (no fix needed):
 
 <image-card alt="Successful run example" src="grokforge-successful-run-example.png" ></image-card>
