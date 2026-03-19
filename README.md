@@ -49,10 +49,9 @@ Here is a real case where the first code generation missed `import threading` �
 ![After fix](auto-fix-example1.png)
 
 ## Successful run example
-
+Here's what a normal successful run looks like (no fix needed):
 ![successful run](grokforge-successful-run-example.png)
 
-Here's what a normal successful run looks like (no fix needed):
 
 <image-card alt="Successful run example" src="grokforge-successful-run-example.png" ></image-card>
 Built by @BenReuven3 with help from Grok — meta! 🚀  
